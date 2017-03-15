@@ -53,7 +53,7 @@ ZSH_THEME="xiong-chiamiov-plus"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(dircycle django git-extras pip virtualenvwrapper nyan git)
+plugins=(dircycle django git-extras pip virtualenvwrapper nyan git ssh-agent)
 
 
 source $ZSH/oh-my-zsh.sh
@@ -66,7 +66,7 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
+# if [[ -n $sshSSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
 #   export EDITOR='mvim'
